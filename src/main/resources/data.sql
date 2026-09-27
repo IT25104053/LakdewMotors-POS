@@ -204,3 +204,16 @@ INSERT INTO products (sku, brand, category, name, price, stock, unit) VALUES
 ('2605104301', 'ENDURANCE', 'Engine', 'MINOR KIT WITH GREASE CALIPER PUL135', 650.00, 29, 'set'),
 ('STMS-PLSR-EE43', 'VARROC', 'Electrical', 'Brush Box KIT Assy PLSR-150/ 180(AFTER 2012)', 630.00, 25, 'set'),
 ('KT-2152RZ', 'MINDA', 'Body Parts', 'DICOVER 100 …', 3750.00, 29, 'pc');
+
+INSERT INTO supplier (supplier_id, address, company_name, contact_number) VALUES
+(1,'123 Panchikawatte Road, Colombo 10', 'Lanka Auto Parts Wholesale', '0112345678'),
+(2, '45 High Level Road, Nugegoda', 'Colombo Motor Parts', '0112347890'),
+(3, '78 Kandy Road, Kelaniya', 'Ruwan Auto Spares', '0113456789'),
+(4, '12 Main Street, Kandy', 'Kandy Auto Supplies', '0812234567'),
+(5, '56 Negombo Road, Wattala', 'Lanka Vehicle Parts', '0114567890'),
+(6, '89 Galle Road, Dehiwala', 'City Auto Components', '0115678901'),
+(7, '34 Matara Road, Galle', 'Southern Auto Parts', '0912345678'),
+(8, '21 Kurunegala Road, Kuliyapitiya', 'Wayamba Auto Traders', '0372234567'),
+(9, '67 Colombo Road, Panadura', 'Panadura Motor Spares', '0382345678'),
+(10, '103 Main Road, Maharagama', 'United Auto Parts', '0116789012'),
+(11, '25 Station Road, Homagama', 'Prime Motor Supplies', '0117890123');
