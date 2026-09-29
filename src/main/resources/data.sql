@@ -217,3 +217,11 @@ INSERT INTO supplier (supplier_id, address, company_name, contact_number) VALUES
 (9, '67 Colombo Road, Panadura', 'Panadura Motor Spares', '0382345678'),
 (10, '103 Main Road, Maharagama', 'United Auto Parts', '0116789012'),
 (11, '25 Station Road, Homagama', 'Prime Motor Supplies', '0117890123');
+
+SELECT * FROM users;
+TRUNCATE TABLE users;
+INSERT INTO `lakdewmotors`.`users` (`id`, `name`, `password`, `role`, `username`) VALUES ('1', 'Suranga', 'sp1234', 'admin', 'Suranga');
+INSERT INTO `lakdewmotors`.`users` (`id`, `name`, `password`, `role`, `username`) VALUES ('2', 'Chathur', 'cy1234', 'admin', 'Chathur');
+INSERT INTO `lakdewmotors`.`users` (`id`, `name`, `password`, `role`, `username`) VALUES ('3', 'Savindu', 'sn1234', 'admin', 'Savindu');
+INSERT INTO `lakdewmotors`.`users` (`id`, `name`, `password`, `role`, `username`) VALUES ('4', 'Saranga', 'sh1234', 'admin', 'Saranga');
+INSERT INTO `lakdewmotors`.`users` (`id`, `name`, `password`, `role`, `username`) VALUES ('5', 'Janithu', 'ji1234', 'admin', 'Janithu');
