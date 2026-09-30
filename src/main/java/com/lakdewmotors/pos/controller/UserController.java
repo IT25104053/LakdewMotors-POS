@@ -25,7 +25,7 @@ public class UserController {
 
         Optional<User> userOpt = userRepository.findByUsername(username);
 
-        // Plain-text check against your manual SQL entries
+        // Plain-text check against manual SQL entries
         if (userOpt.isPresent() && password.equals(userOpt.get().getPassword())) {
             User user = userOpt.get();
             Map<String, Object> response = new HashMap<>();
