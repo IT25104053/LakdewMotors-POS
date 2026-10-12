@@ -1,4 +1,4 @@
-package com.lakdew.pos.model;
+package com.lakdewmotors.pos.model;
 
 import jakarta.persistence.*;
 import java.util.List;
