@@ -1,7 +1,7 @@
-package com.lakdew.pos.controller;
+package com.lakdewmotors.pos.controller;
 
-import com.lakdew.pos.model.SparePart;
-import com.lakdew.pos.repository.SparePartRepository;
+import com.lakdewmotors.pos.model.SparePart;
+import com.lakdewmotors.pos.repository.SparePartRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
