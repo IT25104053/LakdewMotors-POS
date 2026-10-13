@@ -1,1 +1,0 @@
-# LakdewMotors-POS
