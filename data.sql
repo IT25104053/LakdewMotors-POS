@@ -401,6 +401,50 @@ INSERT INTO sales_order (discount_amount, final_total, sub_total, order_date, ca
 (1199.04, 8792.96, 9992.00, '2026-10-14 11:04:41.000000', NULL),
 (0.00, 32.00, 32.00, '2026-10-14 11:05:01.000000', NULL);
 
+INSERT INTO employee (hourly_rate, name, role) VALUES
+(12.50, 'Kasun', 'mechanic'),
+(10.00, 'Dinesh', 'cashier'),
+(14.75, 'Amila', 'mechanic'),
+(18.00, 'Nuwan', 'supervisor'),
+(9.50, 'Gayan', 'cleaner'),
+(15.25, 'Asanka', 'technician'),
+(11.00, 'Supun', 'inventory clerk'),
+(22.00, 'Thilina', 'manager'),
+(13.50, 'Lahiru', 'mechanic'),
+(10.50, 'Roshan', 'cashier'),
+(16.00, 'Chathura', 'technician'),
+(14.00, 'Tharindu', 'mechanic'),
+(11.50, 'Mahesh', 'assistant'),
+(19.50, 'Sampath', 'supervisor'),
+(12.00, 'Malith', 'mechanic'),
+(10.25, 'Kavinda', 'cashier'),
+(15.75, 'Sahan', 'technician'),
+(8.50, 'Hashan', 'cleaner'),
+(13.00, 'Danushka', 'inventory clerk'),
+(17.50, 'Sameera', 'mechanic');
+
+INSERT INTO supplier (contact_number, company_name, address) VALUES
+('0112345678', 'Auto Parts Pvt Ltd', 'Colombo 10'),
+('0771122334', 'Speed Motors', 'Kandy Road, Peliyagoda'),
+('0382233445', 'Southern Spares', 'Galle'),
+('0114567890', 'MechTech Supplies', 'Malabe'),
+('0719988776', 'Gampaha Auto', 'Gampaha'),
+('0312244668', 'Negombo Importers', 'Negombo'),
+('0814455667', 'Hill Country Motors', 'Kandy'),
+('0117894561', 'City Spares', 'Nugegoda'),
+('0723344556', 'Lanka Tyres', 'Kelaniya'),
+('0452277889', 'Ratnapura Bearings', 'Ratnapura'),
+('0113344555', 'East West Traders', NULL),
+('0778899001', 'QuickFix Auto', 'Maharagama'),
+('0389988776', 'Kalutara Parts Market', 'Kalutara'),
+('0112233445', 'Royal Spares', 'Panchikawatta, Colombo'),
+('0714455667', 'Highway Motors', NULL),
+('0817788990', 'Central Auto Hub', 'Peradeniya'),
+('0115566778', 'Global Auto Parts', 'Borella'),
+('0756677889', 'Mega Moto Supplies', 'Kurunegala'),
+('0345566778', 'Matugama Traders', 'Matugama'),
+('0119900112', 'Prime Importers', 'Mount Lavinia');
+
 
 -- Re-enable foreign key checks after creation and insertion
 SET FOREIGN_KEY_CHECKS = 1;
